@@ -35,3 +35,35 @@ DressStore API is a Node.js and Express-based RESTful API for managing an online
 
     ```bash
     npm run dev
+- The server will start on http://localhost:3000.
+
+## API Endpoints
+
+### Get All Products
+- URL:  http://localhost:3000/api/products
+- Method: GET
+
+### Get Product by ID
+- URL:  http://localhost:3000/api/products/:id
+- Method: GET
+
+### Add New Product
+- URL:  http://localhost:3000/api/products
+- Method: POST
+
+### Update Product by ID
+- URL:  http://localhost:3000/api/products/:id
+- Method: PUT
+
+### Delete Product by ID
+- URL:  http://localhost:3000/api/products/:id
+- Method: DELETE
+
+### Delete All Products
+- URL:  http://localhost:3000/api/products
+- Method: DELETE
+
+### Find Products by Name
+- URL:  http://localhost:3000/api/products/search
+- Method: GET
+- Query Parameter: name
